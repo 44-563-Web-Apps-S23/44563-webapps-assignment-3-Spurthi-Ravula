@@ -1,59 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Hai..</title>
-    </head>
-    <body>
-        <h1>Spurthi Ravula</h1>
-        <h3>My favourite team is Badminton</h3>
-        <p>Playing <b>badminton</b> regularly can help strengthen the heart muscle, 
-            helps in reducing stress, improves brain functionality and it also boost the 
-            <b>metabolism rate</b>.</p>
-        <hr>
-        <h3>My favourite team in Badminton</h3>
-        <p>Team India</p>
-        <ol>
-            <li>Sindhu</li>
-            <li>Saina</li>
-            <li>Ruthwika</li>
-        </ol>
-        <ul>
-            <li>Team Denmark</li>
-            <li>Team Japan</li>
-            <li>Team China</li>
-        </ul>
 
-        <a href="aboutme.html">Link to aboutme</a>
+<head>
+    <title>Hai..</title>
+</head>
 
-        <hr>
-        <h3>Places to visit</h3>
-        <p>The below table shows 4 countries that I would recommend people to visit</p>
-        <table>
-            <tr> 
-                <th>Name of the Country</th>    
-                <th>Reason to visit</th>    
-                <th>Days to spend</th>    
-            </tr>    
-            <tr>    
-                <td>India</td>    
-                <td>Diverse cultures</td>    
-                <td>30</td>    
-            </tr>
-            <tr>    
-                <td>France</td>    
-                <td>Best food & castles</td>    
-                <td>15</td>    
-            </tr>
-            <tr>    
-                <td>Indonesia	</td>    
-                <td>Beaches</td>    
-                <td>8</td>    
-            </tr>
-            <tr>    
-                <td>New Zealand</td>    
-                <td>Climate & nature</td>    
-                <td>10</td>    
-            </tr>
-        </table>
-    </body>
+<body>
+    <a href="bonus.html">BONUS</a>
+    <h1>Spurthi Ravula</h1>
+    <h3>My favourite team is Badminton</h3>
+    <p>Playing <b>badminton</b> regularly can help strengthen the heart muscle,
+        helps in reducing stress, improves brain functionality and it also boost the
+        <b>metabolism rate</b>.
+    </p>
+    <hr>
+    <h3>My favourite team in Badminton</h3>
+    <p>Team India</p>
+    <ol>
+        <li>Sindhu</li>
+            <ul>
+                <li>pusarka</li>
+                <li>venkata</li>
+            </ul>
+        <li>Saina</li>
+        <li>Ruthwika</li>
+    </ol>
+    <ul>
+        <li>Team Denmark</li>
+        <li>Team Japan</li>
+        <li>Team China</li>
+    </ul>
+    
+    <a href="aboutme.html">Link to aboutme</a>
+
+    <hr>
+    <h3>Places to visit</h3>
+    <p>The below table shows 4 countries that I would recommend people to visit</p>
+    <table>
+        <tr>
+            <th>Name of the Country</th>
+            <th>Reason to visit</th>
+            <th>Days to spend</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>Diverse cultures</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>France</td>
+            <td>Best food & castles</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Indonesia </td>
+            <td>Beaches</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>New Zealand</td>
+            <td>Climate & nature</td>
+            <td>10</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Code Display</h3>
+    <blockquote>
+        how to check if a string starts with in php?
+    </blockquote>
+    <a href="https://stackoverflow.com/questions/1962031/how-to-check-if-a-string-starts-with-in-php"> stackoverflow url</a>
+
+    <pre> 
+            ?php
+            function startsWith($string, $startString) { 
+             $len = strlen($startString); 
+            return (substr($string, 0, $len) === $startString); 
+            } 
+
+            // usage
+            echo startsWith("cat", "c"); // true
+            echo startsWith("dog", "x"); // false
+
+            ?> 
+    </pre>
+</body>
+
 </html>
